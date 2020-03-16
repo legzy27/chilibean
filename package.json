@@ -1,0 +1,25 @@
+{
+  "name": "chilibean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cuke": " ./node_modules/.bin/cucumber-js --format=json:cucumber_report.json &&  node index.js",
+    "protractorcuke": "protractor protractor.conf.js"
+  },
+  "author": "alexo",
+  "license": "ISC",
+  "dependencies": {
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^5.1.0",
+    "expect": "^25.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-smoothie": "^0.3.2",
+    "cucumber-html-reporter": "^5.0.0",
+    "protractor-cucumber-framework": "^6.1.2",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1"
+  }
+}

@@ -1,0 +1,395 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "User navigate to https://chillipharm.com/sign_in and enter login details I see error message",
+    "line": 1,
+    "id": "user-navigate-to-https://chillipharm.com/sign_in-and-enter-login-details-i-see-error-message",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "user-navigate-to-https://chillipharm.com/sign_in-and-enter-login-details-i-see-error-message;navigate-to-chillibean-login-page-and-click-on-login-button-i-see-error-message",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Navigate to chillibean login page and click on login button I see error message",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate chillibean login page \"https://chillipharm.com/sign_in\"",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on the sign in button error message appear",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter incorrect \"email\"and \"password\" error message appears",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15905000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-navigate-to-https://chillipharm.com/sign_in-and-enter-login-details-i-see-error-message;enter-incorrect--username-and-password-3-times-account-lockout:-warning",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Enter incorrect  username and password 3 times Account Lockout: Warning",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I enter incorrect \"cloudp@yahoo.com\" and \"paswordsx\"",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click sign in button error message warning appears",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10676000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-navigate-to-https://chillipharm.com/sign_in-and-enter-login-details-i-see-error-message;enter-incorrect--username-and-password-3-times-account-lockout:-warning",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Enter incorrect  username and password 3 times Account Lockout: Warning",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I enter incorrect \"tim@yahoo.com\" and \"paswordsxd\"",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click sign in button error message warning appears",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10525000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-navigate-to-https://chillipharm.com/sign_in-and-enter-login-details-i-see-error-message;enter-incorrect--username-and-password-3-times-account-lockout:-warning",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Enter incorrect  username and password 3 times Account Lockout: Warning",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I enter incorrect \"time@yahoo.com\" and \"paswordsxdd\"",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I click sign in button error message warning appears",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10962000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-navigate-to-https://chillipharm.com/sign_in-and-enter-login-details-i-see-error-message;enter-incorrect--username-and-password-5-times-account-lockout",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Enter incorrect  username and password 5 times Account Lockout",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I enter incorrect \"cloudpp@yahoo.com\" and \"paswordsxx\" again",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10926000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-navigate-to-https://chillipharm.com/sign_in-and-enter-login-details-i-see-error-message;enter-incorrect--username-and-password-5-times-account-lockout",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Enter incorrect  username and password 5 times Account Lockout",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I enter incorrect \"cloudppp@yahoo.com\" and \"paswordsxxx\" again",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11189000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-navigate-to-https://chillipharm.com/sign_in-and-enter-login-details-i-see-error-message;enter-incorrect--username-and-password-5-times-account-lockout",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Enter incorrect  username and password 5 times Account Lockout",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I enter incorrect \"cloudx@yahoo.com\" and \"paswordsxz\" again",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11164000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-navigate-to-https://chillipharm.com/sign_in-and-enter-login-details-i-see-error-message;enter-incorrect--username-and-password-5-times-account-lockout",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Enter incorrect  username and password 5 times Account Lockout",
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I enter incorrect \"cloudppy@yahoo.com\" and \"paswordsxxy\" again",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11479000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "80.0.3987.132"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

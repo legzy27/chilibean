@@ -1,0 +1,51 @@
+[
+  {
+    "description": "    In order to perform successful Login\n    As a user\n    I want to enter correct username and password\n\n   \n        Given user navigate to facebook website\n        When user validats the homepage title",
+    "keyword": "Feature",
+    "name": "Login To Production",
+    "line": 1,
+    "id": "login-to-production",
+    "tags": [],
+    "uri": "features/logintoprod1.feature",
+    "elements": [
+      {
+        "id": "login-to-production;in-order-to-verify-login-to-facebook-on-production",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "In order to verify login to facebook on Production",
+        "tags": [
+          {
+            "name": "@prod",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I go to \"https://www.protractortest.org\"",
+            "match": {
+              "location": "features/stepDefinitions/stepDefinition.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2709000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
